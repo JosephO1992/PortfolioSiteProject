@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sanchez"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="section section1">
+      <div class="overlay"></div>
+      <div class="centerText">
+        <h1 class="heading1">Joseph O'Reilly</h1>
+        <h3>Aspiring Web Developer</h3>
+        <a class="popUp1 boxAppear1">About</a> |
+        <a class="popUp1 boxAppear2">Projects</a> |
+        <a class="popUp1 boxAppear3">Contact Me</a><br />
+        <!-- Social Media Links -->
+        <!-- GitHub Link -->
+        <a
+          href="https://github.com/JosephO1992"
+          class="socialLink"
+          target="_blank"
+        >
+          <i class="fab fa-github fa-3x popUp1"></i>
+        </a>
+
+        <!-- LinkedIn Link -->
+        <a
+          href="https://www.linkedin.com/in/joseph-o-reilly-a6011851/"
+          taget="_blank"
+          class="socialLink"
+        >
+          <i
+            style="padding: 10px"
+            class="fab fa-linkedin fa-3x popUp1"
+            target="_blank"
+          ></i>
+        </a>
+
+        <!-- About -->
+        <div class="popUpBox AboutSection">
+          <button class="btn1 AboutDisappear">X</button><br />
+          <h3>A Little Bit About Me</h3>
+          <p>
+            From the UK originally and have been living in Australia for nearly
+            2 years now! I have a background in Sales and Customer Service but
+            wanted a career change that will be more fulfilling and mentally
+            challenging.<br /><br />
+            Have been coding on and off for over a year now, but am now actively
+            looking for roles within the industry.
+          </p>
+        </div>
+        <!-- Projects  https://josepho1992.github.io/parallaxwebsite/-->
+        <div class="popUpBox ProjectSection">
+          <button class="btn1 ProjectDisappear">X</button><br />
+          <h3>Projects I have worked on</h3>
+          <!--React-->
+          <div id="ReactPojectDiv">
+            <a
+              href="https://josepho1992.github.io/ReactContactManagerApp/#/"
+              target="_blank"
+              ><img id="ReactLogo" src="Images/ReactLogo.png"
+            /></a>
+            <br />
+            <a
+              href="https://josepho1992.github.io/ReactContactManagerApp/#/"
+              target="_blank"
+              class="popUpLinks"
+            >
+              React Contact Manager App</a
+            >
+          </div>
+          <!--Parallax-->
+          <div id="ParallaxSiteDiv">
+            <a
+              href="https://josepho1992.github.io/parallaxwebsite/"
+              target="_blank"
+              class="popUpLinks"
+              ><i class="fab fa-product-hunt fa-5x pImg"></i></a
+            ><br />
+            <a
+              href="https://josepho1992.github.io/parallaxwebsite/"
+              target="_blank"
+              class="popUpLinks"
+              >Parallax Website</a
+            >
+          </div>
+        </div>
+        <!-- Contact -->
+        <div class="popUpBox ContactSection">
+          <button class="btn1 ContactDisappear">X</button><br />
+          <h3>Get in touch</h3>
+          <!--Email-->
+          <div id="ParallaxSiteDiv">
+            <a
+              href="mailto:josephraoreilly@gmail.com"
+              target="_blank"
+              class="popUpLinks"
+              ><i class="fas fa-envelope fa-5x pImg"></i></a
+            ><br />
+            <a
+              href="https://josepho1992.github.io/parallaxwebsite/"
+              class="popUpLinks"
+              >Email Me!
+            </a>
+            <p>josephraoreilly@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
